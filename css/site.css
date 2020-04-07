@@ -1,0 +1,206 @@
+
+/*inicio*/
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-image: url("img/fundo.gif");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgb(0, 0, 0);
+	line-height: 1.5;
+}
+.titulo-principal {
+	width: 100%;
+	text-align: center;
+	background-color: #1494c7;
+	color: #FFF;
+	padding: 15px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+/*início da config do menu*/
+.menu{
+    margin: 0;
+}
+.menu ul{
+	margin: 0;
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+    list-style: none;
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	padding: 5px 50px;
+	display: inline-block;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none ;
+
+}
+.menu ul li a:hover{
+	color: rgb(98, 34, 100);
+	background-color: #FFF;
+}
+/*Termino da Config do menu*/
+/*config do corpo da pagina*/
+.corpo{
+	width: 960px;
+	margin: auto;
+	padding: 30px 0;
+	background-color: rgba(29, 4, 44, 0.651);
+}
+.noticias{
+
+	display: table;
+}
+.img{
+
+	display: table-cell;
+	float: right;
+}
+.texto{
+	display: table-cell;
+	float: left;
+}
+
+ .titulos{
+    background-color:  #1494c7;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-align: center; 
+	color: #FFF;
+	font-size: 30px;
+	border-bottom: 10px solid rgb(85, 37, 163);
+ }
+ .text-sub{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-align: center;
+	size: 20px;
+	color:#FFF
+
+ }
+ .Texto-noticia{
+	 
+    background-color: rgba(36, 35, 35, 0.781);
+
+ }
+ /*início config botão de leia mais  */
+ .botao{
+	  vertical-align: top; height:auto !important;
+	
+	}
+
+.botao a {
+	font-size: 20px;
+	color:  rgb(98, 34, 100);
+	text-decoration: none ;
+
+}
+.botao a:hover{
+
+	color: rgb(131, 13, 13)
+
+}
+
+ .lista {
+	 
+	display:none;
+
+}
+ .mostar {
+	 
+	display: none; 
+}
+ .ocultar:target + .mostar {
+	 
+	display: inline;
+ }
+ .ocultar:target {
+	 
+	display: none;
+ }
+ .ocultar:target ~ .lista {
+	 
+	display:inline;
+ }
+ @media print {
+	  .ocultar, .mostar {
+		   
+		display: none; 
+	} 
+
+}
+/*termino config botão leia mais*/
+
+
+ h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+p {
+	color:#FFF;
+	text-align: justify;
+	margin: 20px 0;
+}
+/*termino corpo da página*/
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+/*rodape */
+.rodape-pagina {
+    text-align: center;
+	background-color: #1494c7;
+	color: #F2FFFC;
+	clear: both;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	border-top: 10px solid rgb(85, 37, 163);
+}
+.aside{
+
+
+	text-align: center;
+
+
+}
+
+
+.footer{
+
+	text-decoration: none ;
+}
+.icones-redes-sociais li {
+	    text-decoration: none;
+		display: inline-block;
+}
+/*Redes sociais*/
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+.github {
+	background-image: url("img/github.png");
+}
+
+.twitter {
+	background-image: url("img/twitter.png");
+}
+
+.linkedin {
+	background-image: url("img/linkedin.png");
+}
+.Instagram {
+	background-image: url("img/instagram.png" ) ;
+}
+
+/*fim*/
+
+/*© copyrigh Rubens Eduardo*/
